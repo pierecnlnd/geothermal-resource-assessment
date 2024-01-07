@@ -36,13 +36,13 @@ Visit the website version by following [this link](https://geothermal-ra-mpc.her
 
 ### Heat Stored Method
 
-The Heat Stored Method allows users to estimate the amount of heat stored in a geothermal reservoir. This method provides valuable insights into the reservoir's thermal energy capacity.
+his method empowers users to gauge the amount of thermal energy stored within a geothermal reservoir. Gain insights into the reservoir's capacity for thermal energy! 🔥
 
 ![Heat Stored Method](docs/screenshots/heat_stored_method.jpeg)
 
 ### Power Density Method
 
-The Power Density Method enables users to calculate the power density of a geothermal field. Power density is a crucial parameter for assessing the energy generation potential of a reservoir.
+Unlock the ability to calculate the thermal energy of a geothermal field with this power density parameter. Power density is a crucial parameter for assessing the energy generation potential of a reservoir. ⚡
 
 ![Power Density Method](docs/screenshots/power_density_method.jpeg)
 
