@@ -8,9 +8,13 @@ Geothermal Resource Assessment Tools is a sophisticated tool designed for estima
 - [Usage](#usage)
   - [Cloning the GitHub Content](#cloning-the-github-content)
   - [Visiting the Website Version](#visiting-the-website-version)
+- [Features](#features)
+  - [Heat Stored Method](#heat-stored-method)
+  - [Power Density Method](#power-density-method)
 - [Acknowledgement](#acknowledgement)
 - [Contributing](#contributing)
 - [License](#license)
+- [References](#references)
 
 ## Usage
 
@@ -28,6 +32,20 @@ streamlit run Home.py
 
 Visit the website version by following [this link](https://geothermal-ra-mpc.herokuapp.com).
 
+## Features
+
+### Heat Stored Method
+
+The Heat Stored Method allows users to estimate the amount of heat stored in a geothermal reservoir. This method provides valuable insights into the reservoir's thermal energy capacity.
+
+![Heat Stored Method](docs/screenshots/heat_stored_method.jpeg)
+
+### Power Density Method
+
+The Power Density Method enables users to calculate the power density of a geothermal field. Power density is a crucial parameter for assessing the energy generation potential of a reservoir.
+
+![Power Density Method](docs/screenshots/power_density_method.jpeg)
+
 ## Acknowledgement
 
 This project extends its gratitude to the Geothermal Engineering Study Program at ITB.
@@ -42,9 +60,9 @@ Please make sure to update tests as appropriate.
 
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-## References and Citations
+## References
 
-Please refer to the following resources for additional information and citations:
+Please refer to the following resources for additional information:
 
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Geothermal Reservoir Engineering Second Edition (2011)](https://www.sciencedirect.com/book/9780123838803/geothermal-reservoir-engineering)

@@ -30,7 +30,6 @@ def create_freq_table(res):
     min_ = np.min(res)
     max_ = np.max(res)
     count_ = len(res)
-    print(res)
     bin_range = int(1+10/3*np.log10(count_))
     interval_ = (max_-min_)/bin_range
     hist, bin_edges = np.histogram(res, bins=bin_range)
