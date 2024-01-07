@@ -47,6 +47,7 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 Please refer to the following resources for additional information and citations:
 
 - [Streamlit Documentation](https://docs.streamlit.io/)
-- [Geothermal Engineering Study Program at ITB](https://examplelinktoitbgeothermalprogram.com)
+- [Geothermal Reservoir Engineering Second Edition (2011)](https://www.sciencedirect.com/book/9780123838803/geothermal-reservoir-engineering)
+- [Power Density in Geothermal Fields](https://www.researchgate.net/publication/313903650_Power_Density_in_Geothermal_Fields)
 
 Feel free to explore these references for a deeper understanding of geothermal resource assessment and the technologies used in this project.
