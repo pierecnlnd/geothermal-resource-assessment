@@ -1,30 +1,36 @@
-# Geothermal Resource Asssessment Tools
+# Geothermal Resource Assessment Tools
 
 [![Built in Python](https://img.shields.io/badge/Python-3.8%2C%203.9%2C%203.10-blue)](https://www.python.org/downloads/)
 
-Is a tool for estimating the speculative potential of geothermal
-resources packaged using a modern and very user-friendly streamlit interface.
+Geothermal Resource Assessment Tools is a sophisticated tool designed for estimating the speculative potential of geothermal resources. It comes packaged with a modern and highly user-friendly Streamlit interface.
+
+## Table of Contents
+- [Usage](#usage)
+  - [Cloning the GitHub Content](#cloning-the-github-content)
+  - [Visiting the Website Version](#visiting-the-website-version)
+- [Acknowledgement](#acknowledgement)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Usage
 
-You can use by cloning the github content or visiting the website version. 
+You can utilize this tool either by cloning the GitHub content or by visiting the website version.
 
-### Cloning the github content
+### Cloning the GitHub Content
 
-You can run the content like the usual streamlit project.
+Run the content as you would with any Streamlit project:
 
 ```bash
-streamlit run main.py
+streamlit run Home.py
 ```
 
-### Visiting the website version
+### Visiting the Website Version
 
-Here is the [link](geothermal-ra-mpc.herokuapp.com) to
-visiting the website version.
+Visit the website version by following [this link](https://geothermal-ra-mpc.herokuapp.com).
 
 ## Acknowledgement
 
-This project is also grateful to ITB geothermal engineering study program.
+This project extends its gratitude to the Geothermal Engineering Study Program at ITB.
 
 ## Contributing
 
@@ -33,4 +39,14 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## References and Citations
+
+Please refer to the following resources for additional information and citations:
+
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Geothermal Engineering Study Program at ITB](https://examplelinktoitbgeothermalprogram.com)
+
+Feel free to explore these references for a deeper understanding of geothermal resource assessment and the technologies used in this project.

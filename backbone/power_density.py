@@ -20,33 +20,10 @@ def create_rand_arr(dict_,n):
         res = np.array([dict_['min'] for i in range(n)])
     return res
 
-def Qe(a,h,phi,rho_r,cr,t,sw):
-    Qr = a * 10 ** 6 * h * (1 - phi) * rho_r * cr * t
-    
-    Ql = a * 10 ** 6 * h * phi * sw * np.array([st_.rhoL_t(i) for i in t]) * np.array([st_.uL_t(i) for i in t])
-    Qv = a * 10 ** 6 * h * phi * (1-sw) * np.array([st_.rhoV_t(i) for i in t]) * np.array([st_.uV_t(i) for i in t])
-    return Qr+Ql+Qv
-
-def Qth(a,h,phi,rho_r,cr,ti,tf,swi,swf):
-    Qf = Qe(a, h, phi, rho_r, cr, tf, swf)
-    Qi = Qe(a, h, phi, rho_r, cr, ti, swi)
-    return Qi - Qf
-
-def Qel(a,h,phi,rho_r,cr,ti,tf,swi,swf,rf,ec,t,n=5000):
+def Qel(a,PD,n=5000):
     a = create_rand_arr(a,n)
-    h = create_rand_arr(h,n)
-    phi = create_rand_arr(phi,n)
-    rho_r = create_rand_arr(rho_r,n)
-    cr = create_rand_arr(cr,n)
-    ti = create_rand_arr(ti,n)
-    tf = create_rand_arr(tf,n)
-    swi = create_rand_arr(swi,n)
-    swf = create_rand_arr(swf,n)
-    rf = create_rand_arr(rf,n)
-    ec = create_rand_arr(ec,n)
-    t = create_rand_arr(t,n)
-    res = rf*Qth(a,h,phi,rho_r,cr,ti,tf,swi,swf)*ec/(t*365*24*3600*1000)
-    return res
+    PD = create_rand_arr(PD,n)
+    return a*PD
 
 def create_freq_table(res):
     res = np.sort(res)
